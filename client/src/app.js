@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import MovieBox from './components/MovieBox'
 
 window.onload = function(){
   ReactDOM.render(
-    <h1> IMDB </h1>,
+    <MovieBox />,
     document.getElementById('app')
   )
 }
